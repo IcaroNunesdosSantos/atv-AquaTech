@@ -153,7 +153,11 @@ li span{
     flex-direction: column;
     margin-bottom: 10px;
 }
-
+.campo-cadastro{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
 #email_input{
     border: 2px solid aqua;
     border-radius: 5px;
