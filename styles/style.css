@@ -1,0 +1,219 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+
+/* TELA INICIAL */
+
+body{
+    margin: 0;
+}
+.header{
+    background-color: black;
+    border-bottom: 2px solid #00cfff;
+}
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    
+}
+
+.titulo{
+    color: aqua;
+}
+.navbar{
+    display: flex;
+    gap: 20px;
+    
+}
+.navbar a{
+    color: coral;
+    text-decoration: none;
+}
+li span{
+    color: coral;
+}
+
+.banner{
+    background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+.container-banner{
+    margin-left: 32%;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.container-banner span{
+    font-weight: bold;
+}
+
+.social{
+    background-color: #e6e6e6;
+}
+.container-social{
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-around; 
+  gap: 30px; 
+}
+.box {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  text-align: center;
+  width: 15%;
+}
+.box img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.box h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: crimson;
+    font-size: 20px;
+}
+
+.box p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+
+
+/* LOGIN E CADASTRO */
+
+.login{
+    background-image: url("../assets/imgs/bg-jelly-fish-para_outras_pags.png");
+    width: 100vw;
+    height: 530px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-login{
+    background-color: #e6e6e6;
+    border: 1px solid #e6e6e6;
+    border-radius: 15px;
+    width: 47%;
+    height: 57%;
+}
+
+.container-cadastro{
+    background-color: #e6e6e6;
+    border: 1px solid #e6e6e6;
+    border-radius: 15px;
+    width: 49%;
+    height: 80%;
+}
+
+.card-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(220, 61, 93);
+    font-size: 20px;
+}
+
+.card-cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(220, 61, 93);
+    
+}
+
+.card-cadastro h2{
+    font-size: 17px;
+}
+
+.card-cadastro span{
+    font-size: 15px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+#email_input{
+    border: 2px solid aqua;
+    border-radius: 5px;
+    width: 570px;
+    height: 35px;
+    text-align: center;
+}
+#senha_input{
+    border: 2px solid aqua;
+    border-radius: 5px;
+    width: 570px;
+    height: 35px;
+    text-align: center;
+}
+
+#codigo_input{
+   border: 2px solid aqua;
+    border-radius: 5px;
+    width: 570px;
+    height: 35px;
+    text-align: center; 
+}
+
+#nome_input{
+    border: 2px solid aqua;
+    border-radius: 5px;
+    width: 570px;
+    height: 35px;
+    text-align: center;
+}
+#confirmacao_senha_input{
+    border: 2px solid aqua;
+    border-radius: 5px;
+    width: 570px;
+    height: 35px;
+    text-align: center;
+}
+
+.botao{
+    background-color: crimson;
+    border: 1px solid;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: aqua;
+}
+.container-footer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    padding: 2px;
+}
+
+
+
